@@ -79,7 +79,7 @@ audio::-webkit-media-controls-time-remaining-display {
 
 /* RESPONSIVE SECTION WITH MEDIA QUERIES */
 
-@media(max-width:500px) {
+@media(max-width:400px) {
     #desktop_size {
         display: none;
 
