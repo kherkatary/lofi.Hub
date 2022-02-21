@@ -1,0 +1,93 @@
+    /* Heading Areas  and Texts*/
+body{
+    margin: 0%;
+}
+#intro{
+    position: absolute;
+     margin-left: 40%;
+      margin-top:12%;
+}
+.content{
+    padding: 2.3%;
+    position: fixed;
+    }
+
+ h1{
+     color: rgb(255, 255, 255);
+    font-family: 'Shizuru', cursive;
+    font-size: 60px;
+    margin-bottom: 1px;
+    }
+
+h3{
+    margin-top: 1px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+   
+}
+h4{
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 0.8rem;
+}
+ul{
+    list-style-type: circle;
+}
+ul li{
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: small;
+    width: 300px;
+}
+
+/* MUSIC PLAYER AND CONTROL AREA */
+
+audio::-webkit-media-controls-play-button {
+    background-color: #B1D4E0;
+    border-radius: 50%;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #56AEFF;
+}
+
+audio::-webkit-media-controls-mute-button {
+    background-color: #B1D4E0;
+    border-radius: 50%;
+}
+
+audio::-webkit-media-controls-current-time-display {
+    color: #fff;
+}
+
+audio::-webkit-media-controls-time-remaining-display {
+    color: #fff;
+}
+
+/* SCENE / BACKGROUND AREA  */
+
+
+
+
+
+
+
+/* RESPONSIVE SECTION WITH MEDIA QUERIES */
+
+@media(max-width:500px) {
+    #desktop_size {
+        display: none;
+
+    }
+}
+@media(min-width:500px) {
+    #phone_size {
+        display: none;
+    }
+}
+
