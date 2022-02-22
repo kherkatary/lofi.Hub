@@ -1,6 +1,7 @@
     /* Heading Areas  and Texts*/
 body{
     margin: 0%;
+    background-color: black;
 }
 #intro{
     position: absolute;
